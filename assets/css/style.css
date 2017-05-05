@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    background: url("C:/Users/JNegash BenchMark/Desktop/GT/Basic-Portfolio/assets/images/concrete_seamless.png");
+}
+
+/**header begin**/
+header {
+    background: #ffffff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    border-bottom: 2px solid #cccccc;
+}
+
+h1 {
+	display: inline-block;
+    color: #ffffff;
+    background: #4aaaa5;
+    padding: 20px;
+    margin: 0 153px;
+}
+
+#tabs {
+	float: right;
+	padding: 30px 20px;
+	margin: 0 253px;
+}
+
+#About {
+	float: left;
+	font-size: 16px;
+	font-family: sans-serif;
+	color: #777777;
+	padding-right: 10px;
+}
+
+#Portfolio {
+	float: left;
+	font-size: 16px;
+	font-family: sans-serif;
+	color: #777777;
+	padding: 0px 10px 0px 10px;
+	border-left: 1px outset #dddddd;
+}
+
+#Contact {
+	float: left;
+	font-size: 16px;
+	font-family: sans-serif;
+	color: #777777;
+	padding-left: 10px;
+	border-left: 1px outset #cccccc;
+}
+/**header end**/
+
+/**Index.html begin**/
+.container {
+    width: 100%;
+    display: inline-block;
+}
+
+#about,
+#connect,
+#bio-image {
+    float: left;
+}
+
+#about {
+	border: 1px solid #dddddd;
+	margin: 30px 0 0 153px;
+	padding: 20px;
+	width: 650px;
+    background: #ffffff;
+}
+
+h2 {
+	color: #4aaaa5;
+	font-size: 36px;
+	border-bottom: 2px solid #cccccc;
+	margin: 10px 0px 20px 0px;
+	padding-bottom: 20px;
+
+}
+
+#bio-image  {
+	margin-right: 20px;
+}
+
+p {
+	color: #777777;
+	font-size: 16px;
+	font-family: sans-serif;
+}
+
+#connect {
+	text-align: center;
+	margin-top: 30px;
+	margin-left: 30px;
+	padding: 20px;
+	width: 180px;
+	border: 1px solid #dddddd;
+	background: #ffffff;
+}
+
+h3 {
+	color: #4aaaa5;
+	font-size: 21px;
+	border-bottom: 2px solid #cccccc;
+	margin: 10px 0px 20px 0px;
+	padding-bottom: 20px;
+}
+
+#connect-image {
+    width: 50px;
+    height: 50px;
+    margin: 2px;
+    padding: 0;
+}
+/**Index.html end**/
+
+/**footer**/
+footer {
+	background: #666666;
+	clear: both;
+	border-top: 8px solid #4aaaa5;
+	height: 80px;
+	position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+}
+
+.copyright {
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	color: lightgrey;
+	margin: 30px;
+}
