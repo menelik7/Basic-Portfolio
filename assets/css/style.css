@@ -1,27 +1,35 @@
-body {
-    margin: 0;
-    background: url("C:/Users/JNegash BenchMark/Desktop/GT/Basic-Portfolio/assets/images/concrete_seamless.png");
+* {
+  box-sizing: border-box;
 }
 
-/**header begin**/
+body {
+    margin: 0;
+    background: url("https://github.com/menelik7/menelik7.github.io/raw/master/assets/images/concrete_seamless.png");
+    overflow-y: scroll;
+}
+
+/**header begins**/
+
 header {
     background: #ffffff;
     font-family: 'Georgia', Times, Times New Roman, serif;
     border-bottom: 2px solid #cccccc;
+    padding: 0 194.5px 0 194.5px;
+    height: 78px;
 }
 
 h1 {
-	display: inline-block;
+	float: left;
     color: #ffffff;
     background: #4aaaa5;
     padding: 20px;
-    margin: 0 153px;
+    margin: auto;
 }
 
 #tabs {
 	float: right;
 	padding: 30px 20px;
-	margin: 0 253px;
+	margin-right: 16.17px;
 }
 
 #About {
@@ -49,14 +57,31 @@ h1 {
 	padding-left: 10px;
 	border-left: 1px outset #cccccc;
 }
-/**header end**/
 
-/**Index.html begin**/
-.container {
-    width: 100%;
-    display: inline-block;
+a {
+    color: #777777;
+    background-color: transparent;
+    text-decoration: none;
 }
 
+a:hover {
+    color: #4aaaa5;
+    text-decoration: none;
+}
+
+/*****header ends*****/
+
+
+/**Index.html begins**/
+
+.container {
+    width: 960px;
+    display: inline-block;
+    margin: 0px 194.5px;
+}
+
+#portfolio,
+#Contact,
 #about,
 #connect,
 #bio-image {
@@ -65,8 +90,8 @@ h1 {
 
 #about {
 	border: 1px solid #dddddd;
-	margin: 30px 0 0 153px;
-	padding: 20px;
+	margin: 40px 0;
+	padding: 20px 25px;
 	width: 650px;
     background: #ffffff;
 }
@@ -92,37 +117,138 @@ p {
 
 #connect {
 	text-align: center;
-	margin-top: 30px;
-	margin-left: 30px;
-	padding: 20px;
-	width: 180px;
+	margin: 40px 0 0 40px;
+	padding: 20px 25px;
+	width: 270px;
 	border: 1px solid #dddddd;
 	background: #ffffff;
 }
 
 h3 {
 	color: #4aaaa5;
-	font-size: 21px;
+	font-size: 24px;
 	border-bottom: 2px solid #cccccc;
-	margin: 10px 0px 20px 0px;
+	margin: 5px 0px 20px 0px;
 	padding-bottom: 20px;
 }
 
-#connect-image {
-    width: 50px;
-    height: 50px;
-    margin: 2px;
-    padding: 0;
+#image-left,
+#image-center,
+#image-right {
+    width: 60px;
+    height: 60px;
 }
-/**Index.html end**/
 
-/**footer**/
+#image-left {
+    float: left;
+}
+
+#image-right {
+    float: right;
+}
+
+/**Index.html ends**/
+
+
+/**Portfolio.html begins**/
+
+#portfolio {
+	border: 1px solid #dddddd;
+	margin: 40px 0 100px;
+	padding: 20px 25px;
+	width: 650px;
+    background: #ffffff;
+}
+
+#SS12thS,
+#CFHOF,
+#NWAL,
+#STP {
+	float: left;
+	position: relative;
+	margin: 20px 0px;
+}
+
+#CFHOF,
+#STP {
+	margin-left: 38px;
+}
+
+h4 {
+	text-align: center;
+    color: #ffffff;
+    background: #4aaaa5;
+    font-size: 20px;
+    position: absolute;
+    top: 150px;
+    width: 280px;
+    margin: auto;
+    padding: 10px;
+}
+
+#portfolio-image1,
+#portfolio-image3,
+#portfolio-image2,
+#portfolio-image4 {
+    width: 280px;
+    height: 200px;
+}
+
+/**Portfolio.html ends**/
+
+
+/**Contact.html begins**/
+
+#contact {
+	float: left;
+	border: 1px solid #dddddd;
+	margin: 40px 0 100px;
+	padding: 20px 25px;
+	width: 650px;
+    background: #ffffff;
+}
+
+
+input[type=text], select, textarea {
+    width: 600px;
+    font-size: 16px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+label {
+	font-family: sans-serif;
+	color: #777777;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    font-size: 16px;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border: 4px;
+}
+
+input[type=submit]:hover {
+	background: #777777;
+}
+
+/**Contact.html begins**/
+
+
+/**footer begins**/
+
 footer {
 	background: #666666;
 	clear: both;
 	border-top: 8px solid #4aaaa5;
-	height: 80px;
-	position: absolute;
+	height: 78px;
+	position: fixed;
     bottom: 0;
     width: 100%;
     margin: 0;
@@ -133,5 +259,8 @@ footer {
 	font-size: 12px;
 	font-family: sans-serif;
 	color: lightgrey;
-	margin: 30px;
+	margin: 33px;
 }
+
+/**footer ends**/
+
